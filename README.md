@@ -18,7 +18,7 @@ Practiced component-based structure in React
 
 # Screenshots
 
-![Project Preview](images/Project.png)
+![Project Preview](./public/images/Project.png)
 
 # Thank you for viewing my project!
 
