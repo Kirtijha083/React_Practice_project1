@@ -23,17 +23,79 @@ button{
   font-weight: 500;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 nav{
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
-  margin: 0 auto;
   height: 72px;
   align-items: center;
 }
 
 nav ul{
   display: flex;
-   list-style: none;  /*remove ul design*/
-   gap: 24px;
+  list-style: none;  /*remove ul design*/
+  gap: 24px;
+}
+
+nav ul:hover{
+  cursor: pointer;
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px); /*mean pura height hoga nav bar ke height ko subtract kr ke......taki scroll na aaya*/
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.home h1 {
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+}
+.home p {
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+}
+
+.home-btn {
+  display: flex;
+  gap: 40px;
+}
+
+.home-btn button {
+  font-size: 24px;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+}
+
+.shopping p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brand-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.brand-icons:hover {
+ cursor: pointer;
 }
