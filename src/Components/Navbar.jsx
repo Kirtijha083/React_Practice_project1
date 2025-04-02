@@ -1,6 +1,6 @@
 export default function Navbar(){
     return(
-        <div>
+    
             <nav>
               <div className="logo">
                 <img src="/images/brand_logo.png" alt="logo" /> 
@@ -14,6 +14,6 @@ export default function Navbar(){
 
                 <button>Login</button>
             </nav>
-        </div>
-    )
+       
+    );
 }
