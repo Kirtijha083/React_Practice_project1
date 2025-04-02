@@ -16,9 +16,9 @@ Practiced component-based structure in React
 
 2. Clean and minimal UI design
 
-# Screenshots
+## Screenshots
 
-![Project Preview](images/Project_img.png)
+![Project Preview](public/images/Project_img.png)
 
 # Thank you for viewing my project!
 
